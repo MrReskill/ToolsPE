@@ -10,7 +10,6 @@ use ToolsPE\Events\PlayerQuit;
 class Main extends PluginBase implements Listener
 {
     
-    const NAME = "ToolsPE";
     public $instance;
     
     public function onEnable()
@@ -18,7 +17,7 @@ class Main extends PluginBase implements Listener
         if(!$this->instance instanceof Main) $this->instance = $this;
         $this->registerEvents();
         $this->registerCommands();
-        $this->getLogger()->info(Main::NAME." enabled... Plugin made by Misteboss and LCraftPE !");
+        $this->getLogger()->info("ToolsPE enabled... Plugin made by Misteboss and LCraftPE !");
     }
     
     public static function getInstance()
