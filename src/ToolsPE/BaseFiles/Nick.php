@@ -39,7 +39,7 @@ class Nick
     
     public function setNick()
     {
-        $nicks = ["LCraftPE", "Misteboss1"];
+        $nicks = ['VipGames'.'MCPE_Nicht', 'DrogenEye', 'DBEa', 'TheFas2P', 'xpypypy', 'MrTee', 'GGGamer', 'depp123', 'Pupsblue', 'Gommwaffl', 'BestHDMik', 'BubugagaLp', 'Optimus10', 'EzImMax', 'CuzImSkill', 'NebzFreak', 'CowLer', 'Elexieres', 'Freesionce', 'Wicess', 'MarieXNice', 'IronedPvP', 'Likepvez', 'Freezestyler', 'H4xvr', 'MaxIsLikes', 'Bluenchen', 'XxPvPlerXX', 'Madienblack', 'PPAP', 'HitsLikesX', 'ItzJusteZ', 'RlyBestPvP110', 'Com3back', 'Hell0W0rld', 'ItzJustin', 'Bedip2003', 'Bahmutshari20', 'BigManofMCPE', 'Qwertz123', 'Skywarsgamer7', 'ItzOPPvE', 'Kuhlman77'];
         $this->nicks[$this->name] = $nicks[array_rand($nicks)];
         $this->player->setDisplayName($this->nicks[$this->name]);
         $this->player->setNameTag($this->nicks[$this->name]);
