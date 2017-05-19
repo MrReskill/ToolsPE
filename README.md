@@ -6,8 +6,8 @@ This plugin is in development but it will propose very soon many commands and fe
 
 | Command | Parameter | Description | Permission |
 | :-----: | :-------: | :---------: | :-------: |
-| /nick | | Get a random nick | `All` | 
-| /unnick | | Delete your nick | `All` |
+| /nick | | Get a random nick. | `All` | 
+| /unnick | | Delete your nick. | `All` |
 
 ## ToolsPE: Installation :
 
