@@ -11,7 +11,7 @@ class Main extends PluginBase implements Listener
 {
     
     const NAME = "ToolsPE";
-    public $nicks, $skins, $instance = [];
+    public $instance;
     
     public function onEnable()
     {
