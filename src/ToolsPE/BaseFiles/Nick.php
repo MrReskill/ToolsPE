@@ -7,14 +7,13 @@ use ToolsPE\Main;
 class Nick
 {
     
-    private $player, $name, $nicks;
+    private $nicks, $skins = [];
+    private $player, $name;
     
     public function __construct(Player $player)
     {
         $this->player = $player;
         $this->name = $player->getName();
-        $this->nicks = Main::getInstance()->nicks;
-        $this->skins = Main::getInstance()->skins;
     }
     
     public function reset()
