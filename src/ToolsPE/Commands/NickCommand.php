@@ -31,7 +31,7 @@ class NickCommand extends Command
         }
         else
         {
-            $sender->sendMessage("§cAn error has occurred, please usage : /nick.");
+            $sender->sendMessage("§cAn error has occurred, please use: /nick.");
         }
     }
 }
