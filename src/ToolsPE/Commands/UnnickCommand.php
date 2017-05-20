@@ -33,7 +33,7 @@ class UnnickCommand extends Command
         }
         else
         {
-            $sender->sendMessage("§cAn error has occurred, please usage : /unnick.");
+            $sender->sendMessage("§cAn error has occurred, please use: /unnick.");
         }
     }
 }
