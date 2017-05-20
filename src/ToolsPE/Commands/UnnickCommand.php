@@ -20,7 +20,7 @@ class UnnickCommand extends Command
             if($sender instanceof Player)
             {
                 $nick = new Nick($sender);
-                if($nick->getNick() !=== "ERROR")
+                if($nick->getNick() !== "ERROR")
                 {
                     $nick->reset();
                     $sender->sendMessage("§7Your nick has been deleted...");
