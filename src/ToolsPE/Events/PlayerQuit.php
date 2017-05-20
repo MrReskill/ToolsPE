@@ -7,7 +7,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerQuitEvent;
 use ToolsPE\BaseFiles\Nick;
 
-class PlayerQuit extends PluginBase implements Listener
+class PlayerQuit implements Listener
 {
 
     public function onQuit(PlayerQuitEvent $event)
