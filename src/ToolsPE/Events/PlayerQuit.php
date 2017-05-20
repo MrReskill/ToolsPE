@@ -13,7 +13,7 @@ class PlayerQuit extends PluginBase implements Listener
     public function onQuit(PlayerQuitEvent $event)
     {
         $nick = new Nick($event->getPlayer());
-        if($nick->getNick() !=== "ERROR")
+        if($nick->getNick() !== "ERROR")
         {
             $nick->reset();
         }  
