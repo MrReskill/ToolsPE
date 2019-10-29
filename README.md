@@ -15,4 +15,4 @@ Soon...
 
 ## ToolsPE: Informations :
 
-UnityPM is a team of French developers composed of `Misteboss1` and `LCraftPE`.
+UnityPM is a team of French developers composed of `MisteFr` and `LCraftPE`.
